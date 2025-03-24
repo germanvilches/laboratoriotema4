@@ -1,0 +1,90 @@
+    /* CSS formulario*/
+.formulario{
+    width: 320px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #69a7e2;
+    border-radius: 12px;
+    box-shadow: 2px 2px 20px rgba(8, 43, 138, 0.1);
+    background-color:dodgerblue;
+}
+.formulario input, .formulario button{
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+}
+
+    /* CSS encabezados */
+
+h2{
+   color:dodgerblue;
+}
+
+
+    /* Css imágenes */
+img{
+    display:block;
+    margin:auto;
+    }
+
+    /* Css body */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+    /* Css sección */
+section {
+    background-color: white;
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+    /* Sección headers */
+header{
+    background-color:dodgerblue;
+    padding: 1px 0;
+}
+
+    /* Css menús */
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+   
+}
+nav ul li{
+    display: inline-block;
+    /* margin-right: 20px; */
+    position: relative;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+nav ul li a:hover{
+    background-color: #555;
+}
+
+nav ul li:hover .submenu {
+    display: block;
+}
+
+
+  /* Css footer */
+footer {
+    background-color: dodgerblue;
+    color: white;
+    padding: 20px 0;
+    font-size: 14px;
+    width: 100%;
+}
+
